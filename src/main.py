@@ -20,7 +20,7 @@ def main():
 
     copy_static(src, dst)
     print("Static assets copied.")
-    generate_pages_recursive(basepath, "template.html", "docs")
+    generate_pages_recursive("content", "template.html", "docs", basepath)
     
 
 if __name__ == "__main__":
